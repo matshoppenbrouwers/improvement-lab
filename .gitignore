@@ -1,0 +1,32 @@
+# Private study records and raw evidence, at any depth
+private-studies/
+study-data/
+raw-traces/
+traces/
+telemetry/
+private/
+*.jsonl
+*.ndjson
+*.log
+*.trace
+*.otlp
+*.otlp.json
+*.trace.json
+*.cpuprofile
+*.heapprofile
+*.prof
+*.pstats
+# Credentials and local settings
+.env
+.env.*
+*.pem
+*.key
+credentials*
+secrets*
+# Local scratch and caches
+work/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
